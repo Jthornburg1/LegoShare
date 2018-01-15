@@ -17,6 +17,12 @@
 		CE266175200BA65500487A3A /* LegoShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE266174200BA65500487A3A /* LegoShareUITests.swift */; };
 		D27C349E200BFE2D009B27CC /* ProjectListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27C349C200BFE2D009B27CC /* ProjectListVC.swift */; };
 		D27C349F200BFE2D009B27CC /* ProjectListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D27C349D200BFE2D009B27CC /* ProjectListVC.xib */; };
+		D27C34A2200C086E009B27CC /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27C34A0200C086E009B27CC /* SettingsVC.swift */; };
+		D27C34A3200C086E009B27CC /* SettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D27C34A1200C086E009B27CC /* SettingsVC.xib */; };
+		D27C34AA200C09B9009B27CC /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27C34A8200C09B9009B27CC /* MyProfileVC.swift */; };
+		D27C34AB200C09B9009B27CC /* MyProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D27C34A9200C09B9009B27CC /* MyProfileVC.xib */; };
+		D27C34AE200C09DB009B27CC /* NewProjectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27C34AC200C09DB009B27CC /* NewProjectVC.swift */; };
+		D27C34AF200C09DB009B27CC /* NewProjectVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D27C34AD200C09DB009B27CC /* NewProjectVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		CE266176200BA65500487A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D27C349C200BFE2D009B27CC /* ProjectListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListVC.swift; sourceTree = "<group>"; };
 		D27C349D200BFE2D009B27CC /* ProjectListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectListVC.xib; sourceTree = "<group>"; };
+		D27C34A0200C086E009B27CC /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		D27C34A1200C086E009B27CC /* SettingsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsVC.xib; sourceTree = "<group>"; };
+		D27C34A8200C09B9009B27CC /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		D27C34A9200C09B9009B27CC /* MyProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyProfileVC.xib; sourceTree = "<group>"; };
+		D27C34AC200C09DB009B27CC /* NewProjectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectVC.swift; sourceTree = "<group>"; };
+		D27C34AD200C09DB009B27CC /* NewProjectVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewProjectVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +150,12 @@
 			children = (
 				D27C349C200BFE2D009B27CC /* ProjectListVC.swift */,
 				D27C349D200BFE2D009B27CC /* ProjectListVC.xib */,
+				D27C34A0200C086E009B27CC /* SettingsVC.swift */,
+				D27C34A1200C086E009B27CC /* SettingsVC.xib */,
+				D27C34A8200C09B9009B27CC /* MyProfileVC.swift */,
+				D27C34A9200C09B9009B27CC /* MyProfileVC.xib */,
+				D27C34AC200C09DB009B27CC /* NewProjectVC.swift */,
+				D27C34AD200C09DB009B27CC /* NewProjectVC.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -253,6 +271,9 @@
 				CE26615C200BA65500487A3A /* Assets.xcassets in Resources */,
 				D27C349F200BFE2D009B27CC /* ProjectListVC.xib in Resources */,
 				CE266157200BA65500487A3A /* Main.storyboard in Resources */,
+				D27C34AB200C09B9009B27CC /* MyProfileVC.xib in Resources */,
+				D27C34AF200C09DB009B27CC /* NewProjectVC.xib in Resources */,
+				D27C34A3200C086E009B27CC /* SettingsVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,10 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27C34AA200C09B9009B27CC /* MyProfileVC.swift in Sources */,
 				CE266154200BA65500487A3A /* ViewController.swift in Sources */,
 				CE266152200BA65500487A3A /* AppDelegate.swift in Sources */,
 				D27C349E200BFE2D009B27CC /* ProjectListVC.swift in Sources */,
+				D27C34AE200C09DB009B27CC /* NewProjectVC.swift in Sources */,
 				CE26615A200BA65500487A3A /* LegoShare.xcdatamodeld in Sources */,
+				D27C34A2200C086E009B27CC /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
